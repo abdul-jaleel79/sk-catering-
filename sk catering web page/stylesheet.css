@@ -1,0 +1,15 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+nav{
+    background-color: black;
+    color: rgb(199, 177, 98);
+    height: auto;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    padding: 0 40;
+    font-family: 'Times New Roman', Times, serif;
+}
