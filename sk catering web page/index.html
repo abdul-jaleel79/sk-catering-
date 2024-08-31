@@ -3,15 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SK CATERING</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <title>Sk Catering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item {
+            margin-bottom: 1rem;
+        }
+        .testimonial {
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+        form label, form input, form textarea {
+            display: block;
+            margin-bottom: 0.5rem;
+            width: 100%;
+        }
+        form input, form textarea {
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            padding: 0.7rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
+    <header>
         <h1>SK CATERING</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to SK Catering Service! We provide exceptional catering services for all types of events, including weddings, corporate functions, and private parties. Our mission is to deliver delicious food and impeccable service to make your event unforgettable.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Appetizers</h3>
+            <p>Selection of gourmet starters to tantalize your taste buds.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Main Courses</h3>
+            <p>A variety of delicious main dishes prepared with the freshest ingredients.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Desserts</h3>
+            <p>Indulgent sweets to end your meal on a high note.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>We cater to a wide range of events, including:</p>
+        <ul>
+            <li>Weddings</li>
+            <li>Corporate Events</li>
+            <li>Birthday Parties</li>
+            <li>Private Dinners</li>
         </ul>
-    </nav>
-    
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"The food was absolutely amazing and the service was impeccable. Our wedding guests couldn't stop raving about it!" - Jane & John</p>
+        </div>
+        <div class="testimonial">
+            <p>"Professional, timely, and delicious. Our corporate event was a huge success thanks to Your Catering Service." - XYZ Corp.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Catering Service. All rights reserved.</p>
+    </footer>
 </body>
 </html>
